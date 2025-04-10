@@ -1,0 +1,29 @@
+{
+  "name": "vercel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && nodemon dist/index.js",
+    "build": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.782.0",
+    "@types/express": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "radis": "^2.0.0",
+    "redis": "^4.7.0",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/webidl-conversions": "^7.0.3",
+    "@types/whatwg-url": "^13.0.0"
+  }
+}
