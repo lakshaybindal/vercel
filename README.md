@@ -151,8 +151,4 @@ Possible status values: `"uploaded"`, `"building"`, `"deployed"`.
 
 This route serves the static files of the deployed application from R2 storage. The subdomain of the request is used to determine which project to serve.  No specific JSON response is applicable here, as this server delivers static HTML, CSS, and JavaScript files.  Instead, it responds with the content of the requested file.
 
-
-## Project Description
-
-This project provides a simplified platform for deploying frontend applications. It demonstrates a fundamental workflow for automated deployments, including cloning from GitHub, building the project, storing artifacts on a cloud storage service, and serving them based on unique subdomains.  It's a valuable example for learning about continuous deployment principles and interacting with cloud storage using the AWS SDK.
 ```
